@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Algerian Forest Fire Prediction</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                  url('https://images.unsplash.com/photo-1570129477492-45c003edd2be') no-repeat center center/cover;
+      color: #ffffff;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 40px 60px;
+      border-radius: 16px;
+      max-width: 700px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    .cta-button {
+      background-color: #e67e22;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.1em;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #cf711f;
+    }
+  </style>
 </head>
 <body>
-     <h1>welcome to Home page</h1>
+  <div class="hero">
+    <h1>🔥 Algerian Forest Fire Predictor</h1>
+    <p>Use our machine learning model trained on real Algerian forest fire data to predict the Fire Weather Index (FWI) and assess fire risk more effectively.</p>
+    <a href="/predictdata" class="cta-button">Predict Now</a>
+  </div>
 </body>
 </html>
